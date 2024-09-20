@@ -1,5 +1,9 @@
 plugins {
-    id("hu.bme.mit.ase.shingler.gradle.java")
+    id("hu.bme.mit.ase.shingler.gradle.application")
+}
+
+repositories {
+    mavenCentral()
 }
 
 val picoCliVersion = "4.7.6"

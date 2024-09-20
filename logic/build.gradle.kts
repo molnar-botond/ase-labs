@@ -2,6 +2,10 @@ plugins {
     id("hu.bme.mit.ase.shingler.gradle.java")
 }
 
+repositories {
+    mavenCentral()
+}
+
 val picoCliVersion = "4.7.6"
 val slf4jVersion = "1.7.36"
 val log4jVersion = "2.23.1"
